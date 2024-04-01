@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="container">
             <Link 
               to='/'
-              className="fs-1 text-white mavbar-brand text-decoration-none fw-bold"
+              className="fs-1 text-black mavbar-brand text-decoration-none fw-bold"
             >
               Rick & Morty <span className="text-primary">Page
               </span>
@@ -49,19 +49,19 @@ const Navbar = () => {
             <NavLink 
               activeClassName="active" 
               to='/'
-              className="nav-link text-white" 
+              className="nav-link text-black" 
             >
               Charakters
             </NavLink>
             <NavLink 
               to='/episodes'
-              className="nav-link text-white"
+              className="nav-link text-black"
             >
               Episodes
             </NavLink>
             <NavLink 
               to='location'
-              className="nav-link text-white fs-4"
+              className="nav-link text-black fs-4"
             >
               Location
             </NavLink>
